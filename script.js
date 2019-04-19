@@ -87,7 +87,7 @@ const updateList = () => {
     //name
     let name = document.createElement("p");
     name.className = classNames.TODO_TEXT;
-    name.innerHTML = task.id + " " + task.name;
+    name.innerHTML = task.name;
 
     //delete
     let del = document.createElement("button");
